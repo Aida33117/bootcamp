@@ -1,0 +1,6 @@
+## Bug Report -bug1.py
+
+**Summary**: Off-by-one slicing and identation issue in function.
+**Root Cause**:Incorrect indentation and wrong index calculation in list slicing.
+**Resolution**:AI suggested correcting indentation and changing slicing to `items[len(items)-n]`.Manual edit applied successfully.
+**Lesson Learned**:Python indentation is critical, and list slicing must be carefully tested with edge cases
